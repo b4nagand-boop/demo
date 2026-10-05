@@ -6,3 +6,4 @@ while True:
 	state += incr
 	if state == 50 or state == -50:
 		incr = incr * -1
+		state = 0
